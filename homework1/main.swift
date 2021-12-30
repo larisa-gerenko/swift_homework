@@ -13,7 +13,7 @@ import Foundation
 //Практическое задание 2
 //1. Написать функцию, которая определяет, четное число или нет.
 
-func isEven (number: Int) {
+func isEven (_ number: Int) {
     if number % 2 == 0 {
         print("Число четное")
     } else {
@@ -21,11 +21,11 @@ func isEven (number: Int) {
     }
 }
 
-var result: () = isEven(number: 21)
+var result: () = isEven(21)
 
 //2. Написать функцию, которая определяет, делится ли число без остатка на 3.
 
-func fallIntoThree (numberTwo: Int) {
+func fallIntoThree (_ numberTwo: Int) {
     if numberTwo % 3 == 0 {
         print("Число делится без остатка на 3")
     } else {
@@ -33,4 +33,9 @@ func fallIntoThree (numberTwo: Int) {
     }
 }
 
-var resultTwo: () = fallIntoThree(numberTwo: 20)
+var resultTwo: () = fallIntoThree(20)
+
+// 3. Создать возрастающий массив из 100 чисел.
+
+let array = Array(0...99)
+print(array)
