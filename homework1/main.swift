@@ -18,7 +18,7 @@ func isEven (_ number: Int) {
     }
 }
 
-var result: () = isEven(21)
+isEven(21)
 
 //2. Написать функцию, которая определяет, делится ли число без остатка на 3.
 
@@ -30,7 +30,7 @@ func fallIntoThree (_ numberTwo: Int) {
     }
 }
 
-var resultTwo: () = fallIntoThree(20)
+fallIntoThree(20)
 
 // 3. Создать возрастающий массив из 100 чисел.
 
@@ -41,4 +41,5 @@ print(array)
 
 var deleteNumbers = array.filter {$0 % 2 != 0 && $0 % 3 == 0}
 print(deleteNumbers)
+
 
