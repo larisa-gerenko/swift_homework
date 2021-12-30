@@ -7,9 +7,6 @@
 
 import Foundation
 
-
-
-
 //Практическое задание 2
 //1. Написать функцию, которая определяет, четное число или нет.
 
@@ -39,3 +36,9 @@ var resultTwo: () = fallIntoThree(20)
 
 let array = Array(0...99)
 print(array)
+
+// 4. Удалить из этого массива все четные числа и все числа, которые не делятся на 3.
+
+var deleteNumbers = array.filter {$0 % 2 != 0 && $0 % 3 == 0}
+print(deleteNumbers)
+
