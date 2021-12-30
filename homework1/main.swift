@@ -7,5 +7,19 @@
 
 import Foundation
 
-print("Hello, World!")
-let a = 4
+
+
+
+//Практическое задание 2
+//1. Написать функцию, которая определяет, четное число или нет.
+
+func isEven (number: Int) {   
+    if number % 2 == 0 {
+        print("Число четное")
+    } else {
+        print("Число нечетное")
+    }
+}
+
+var result: () = isEven(number: 21)
+
