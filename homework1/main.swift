@@ -7,6 +7,7 @@
 
 import Foundation
 
+/resources/1.3_3_1_1637237818.png
 //Практическое задание 2
 //1. Написать функцию, которая определяет, четное число или нет.
 
@@ -37,6 +38,7 @@ if fallIntoThree(20) {
 let array = Array(0...99)
 print(array)
 
+/resources/1.3_3_1_1637237818.png
 // 4. Удалить из этого массива все четные числа и все числа, которые не делятся на 3.
 
 var deleteNumbers = array.filter { !isEven($0) && fallIntoThree($0) }
